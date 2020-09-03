@@ -9,7 +9,7 @@ The total cost for the specified configuration should be around $300.
 
 ## 3D Printed Components
 
-All the necessary CAD models can be found in the [CAD](/CAD) folder. This includes the full [Fusion 360 Design](/CAD/RodPlotter.f3z)
+All the necessary CAD models can be found in the [CAD](/CAD) folder and are already oriented correctly for printing. This includes the full [Fusion 360 Design](/CAD/RodPlotter.f3z)
 
 For the items listed as `xN_PartName.stl` note that you must print `N` copies of that item. 
 
@@ -24,6 +24,7 @@ All components should be printed in PLA with the following settings:
 - 3 shells / 3 top & bottom lasers
 - 25% Grid Infill
 - Top & Bottom layers Rectilinear Infill
+- NO SUPPORT. None of the components will require any support.
 
 Any other settings would depend on your particular filament and printer capability but we recommend using high quality filament with consistent diameter. I are partial to Printed Solid, Atomic or Prusa brands.
 
@@ -94,6 +95,7 @@ There's probably a way to make Marlin directly output servo signals, triggered b
 
 There will be no step-by-step guide provided. It would likely take me longer to assemble that than it did to design the machine in the first place. My recommendation is to download and load the provided Fusion 360 design and use that as a basic guide of what goes where. But please read through the following notes before beginning:
 
+- All of the rods are held in place by compression from the 3D printed blocks they fit into and you need to make sure you get a tight fit. It the top (in terms of print orientation) is not perfectly flat and smooth you should smooth them out by running that face in a figure-eight pattern over some sand paper on a flat surface. Make sure you can place adjoinging printed parts against each other with no noticable gaps between them.
 - Start by securing the 2 bearings in the X axis carriage then insert one rod into each of the bearings. Set aside.
 - Place a bearing on each of the Y axis rods
 - Pre-insert nuts into the `YRail` bottom parts and keep in place with some tape, if need be
@@ -115,3 +117,4 @@ There will be no step-by-step guide provided. It would likely take me longer to 
 - To ensure that the belts are of the right tension you can generally tell if the X axis is square to the frame and the belts provide a bit of resistance when pushing on them with one finger.
 - You may need to tighten one side then the other until the axis is square *and* the belts are tight enough. During the process move around the tool head manually and make sure that everything still freely moves.
 - Hooking up the motors can be a little finicky since there's no specific X or Y motor. Make sure that both motors are wired in the same wire order. Once connected if the tool head moves in the wrong direction or on the wrong axis you make need to either swap the motor connectors or rotate them 180 degrees in the same place. What will be right honestly depends entirely on the motors used.
+- Depending on the length of the arms provided with your servo you may need to sand down the tip a little to make sure it doesn't bind up against the pen holder.
