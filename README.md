@@ -1,7 +1,7 @@
-# RodPlotter
+# PlotDevice
 Super compact and simple CoreXY Plotter
 
-The RodPlotter is designed to be as simple and cheap as possible without sacrificing quality and speed. While it can be setup with any controller that supports the CoreXY configuration, I have designed it with Marlin and TMC drivers in mind. This allows it to use sensorless homing and therefore making wiring a breeze. The motors are all stationary and you only need to run 3 wires for the servo to the tool head.
+The PlotDevice is designed to be as simple and cheap as possible without sacrificing quality and speed. While it can be setup with any controller that supports the CoreXY configuration, I have designed it with Marlin and TMC drivers in mind. This allows it to use sensorless homing and therefore making wiring a breeze. The motors are all stationary and you only need to run 3 wires for the servo to the tool head.
 
 The core design calls for 500mm linear rods which results in a 410mm x 350mm working area. However, you could easily use any length rod to increase or shrink the overall machine size.
 
@@ -9,7 +9,7 @@ The total cost for the specified configuration should be around $300.
 
 ## 3D Printed Components
 
-All the necessary CAD models can be found in the [CAD](/CAD) folder and are already oriented correctly for printing. This includes the full [Fusion 360 Design](/CAD/RodPlotter.f3z)
+All the necessary CAD models can be found in the [CAD](/CAD) folder and are already oriented correctly for printing. This includes the full [Fusion 360 Design](/CAD/PlotDevice.f3z)
 
 For the items listed as `xN_PartName.stl` note that you must print `N` copies of that item. 
 
@@ -28,7 +28,7 @@ All components should be printed in PLA with the following settings:
 
 Any other settings would depend on your particular filament and printer capability but we recommend using high quality filament with consistent diameter. I are partial to Printed Solid, Atomic or Prusa brands.
 
-Final word on quality and accuracy: The RodPlotter is designed with relatively tight tolerances so your prints need to be as accurate as possible. If you are unsure, I recommend printing this [calibration cube](https://www.thingiverse.com/thing:1586206) with the filament you want to use first as a test, with the above settings. If any dimension deviates from 20mm by more than 0.1mm, you should spend some time dialing in your extrusion settings for that filament until it is within 0.1mm tolerance.
+Final word on quality and accuracy: The PlotDevice is designed with relatively tight tolerances so your prints need to be as accurate as possible. If you are unsure, I recommend printing this [calibration cube](https://www.thingiverse.com/thing:1586206) with the filament you want to use first as a test, with the above settings. If any dimension deviates from 20mm by more than 0.1mm, you should spend some time dialing in your extrusion settings for that filament until it is within 0.1mm tolerance.
 
 ## Bill of Materials
 
@@ -76,7 +76,7 @@ I've created a branch of the latest (as of v2.0.6) Marlin that has been configur
 - Configured the BLTouch output pins to work with the ServoLaser
 - Configured to support M9 to suppress a warning from LightBurn generated gcode which always outputs M9 for Marlin.
 
-You can find this updated code [here](https://github.com/adammhaile/Marlin/tree/RodPlotter) as well as a pre-compiled [firmware.bin in this repo](/firmware.bin).
+You can find this updated code [here](https://github.com/adammhaile/Marlin/tree/PlotDevice) as well as a pre-compiled [firmware.bin in this repo](/firmware.bin).
 
 With this configuration you can control the pen via the marlin "Laser" commands `M3` and `M5`. It's also configured so that anything other than a laser value of 0 will turn fully deploy the pen, so that:
 
