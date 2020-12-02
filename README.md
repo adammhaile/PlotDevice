@@ -62,7 +62,7 @@ See the table below for the required components. Please note the following notes
 |  SKR Mini E3 v2.0 | 1 | [Various](https://www.amazon.com/gp/product/B0882QGFZR/ "Various") | v2.0 makes sensorless homing easier |
 |  SKR Mini LCD | 1 | [Various](https://www.amazon.com/gp/product/B07NZ9SD26/ "Various") | **Optional |
 |  12 or 24V @5A+ PSU | 1 | [Various](https://www.amazon.com/gp/product/B07PWZQ4MB/ "Various") |  |
-|  ServoLaser | 1 | [Maniacal Labs](https://github.com/ManiacalLabs/ServoLaser) | Release TBD |
+|  ServoBuddy | 1 | [Maniacal Labs](https://github.com/ManiacalLabs/ServoLaser) | Release TBD |
 
 
 ## Controller
@@ -73,7 +73,7 @@ I've created a branch of the latest (as of v2.0.6) Marlin that has been configur
 
 - Added hard coded pen down / up delays to prevent movement starting before the pen is fully down or up.
 - Removed Z homing so that a bare `G28` will not fail
-- Configured the BLTouch output pins to work with the ServoLaser
+- Configured the BLTouch output pins to work with the ServoBuddy
 - Configured to support M9 to suppress a warning from LightBurn generated gcode which always outputs M9 for Marlin.
 
 You can find this updated code [here](https://github.com/adammhaile/Marlin/tree/PlotDevice) as well as a pre-compiled [firmware.bin in this repo](/firmware.bin).
@@ -87,9 +87,11 @@ M3 S0   ; pen up
 M5      ; pen up
 ```
 
-Please note that this also all depends on using the [ServoLaser](https://github.com/ManiacalLabs/ServoLaser). This simple device merely reads the "laser" control signal (configured to output on the BLTouch deploy signal (`PA1`) pin) and converts that to a servo control signal. It provides automatic signal filtering so that you avoid fluttering as well as a built in trimpot that allows you to adjust the range and direction of motion.
+Please note that this also all depends on using the [ServoBuddy](https://github.com/ManiacalLabs/ServoLaser). This simple device merely reads the "laser" control signal (configured to output on the BLTouch deploy signal (`PA1`) pin) and converts that to a servo control signal. It provides automatic signal filtering so that you avoid fluttering as well as a built in trimpot that allows you to adjust the range and direction of motion.
 
-There's probably a way to make Marlin directly output servo signals, triggered by and `M` code but the intent of the ServoLaser was to avoid the need for doing something like that.
+The ServoBuddy was originally intended to be sold by [Maniacal Labs](https://maniacallabs.com) but we decided to shut it down before that happened. I do, however, have a couple dozen ServoBuddy boards if anyone wants one. Just contact me via adammhaile [at] gmail [dot] com, and I can work out sending you one. Also, the device is not complicated and it would be relatively cheap to have the PCBs fabricated and buy the components - assuming you have the ability to flash the firmware on the ATTiny.
+
+There's probably a way to make Marlin directly output servo signals, triggered by and `M` code but the intent of the ServoBuddy was to avoid the need for doing something like that.
 
 ## Build Notes
 
