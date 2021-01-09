@@ -9,8 +9,6 @@ The core design calls for 500mm linear rods which results in a roughly 410mm x 3
 
 The total cost for the specified configuration should be around $300.
 
-<video preload="auto" muted loop autoplay src="img/plot_device_anim.mp4"></video>
-
 ## 3D Printed Components
 
 All the necessary CAD models can be found in the [CAD](/CAD) folder and are already oriented correctly for printing. This includes the full [Fusion 360 Design](/CAD/PlotDevice.f3z)
