@@ -47,24 +47,24 @@ See the table below for the required components. Please note the following notes
 
 |  Item | Qty | Vendor | Notes |
 | --- | --- | --- | --- |
-|  M3x25 | 40 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm "Albany County Fasters") |  |
-|  M3x10 | 34 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm "Albany County Fasters") |  |
-|  M3x5 | 8 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm "Albany County Fasters") |  |
-|  M3 Nut | 82 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm "Albany County Fasters") |  |
-|  M2x10 | 2 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-2MM-A2-Stainless-Steel-p/5020000.htm "Albany County Fasters") | 6 if using physical endstops |
-|  M5x55 (low profile) | 6 | [Open Builds](https://openbuildspartstore.com/smooth-idler-pulley-kit/ "Open Builds") |  |
-|  Idler Pulley Kit | 8 | [Open Builds](https://openbuildspartstore.com/smooth-idler-pulley-kit/ "Open Builds") | Technically only need the pulley body, 2x 625 bearings, lock nut, and washer from this kit. Could be purchased separately |
-|  GT2 Timing Belt | 10 | [ZYLTech](http://www.zyltech.com/fiber-glass-reinforced-2gt-gt2-timing-belt-custom-length-price-per-meter/ "ZYLTech") | Two ~3m lengths needed. But best to have extra - but a full continuous 10m |
-|  GT2 20T Pulley | 2 | [ZYLTech](http://www.zyltech.com/2gt-gt2-6mm-wide-20t-pulley-5mm-6-35mm-or-8mm-bore/ "ZYLTech") | MUST GET 5mm BORE VERSION!!! |
-|  LM10UU Bearing | 4 | [ZYLTech](http://www.zyltech.com/lm10luu-linear-bearing-10mm-long/ "ZYLTech") | This is the long (55mm) version! |
-|  10mm x 500mm Shaft | 6 | [ZYLTech](http://www.zyltech.com/10mm-chrome-plated-hardened-rod-shaft-pre-cut-lengths-300mm-1000mm/ "ZYLTech") | Be sure to select the 500mm option. |
-|  Micro Limit Switch | 2 | [ZYLTech](http://www.zyltech.com/micro-switch-with-1-meter-wire-2a-125vac/ "ZYLTech") | **Optional if using sensorless homing |
-|  MGN9 75mm Rail | 1 | [RobotDigg](https://www.robotdigg.com/product/671/HIWIN-Origin-Miniature-Guideway-Narrow-Linear-Rail "RobotDigg") | Be sure to select the **MGN9-1C-75** option |
+|  M3x25 | 40 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm) |  |
+|  M3x10 | 34 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm) |  |
+|  M3x5 | 8 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm) |  |
+|  M3 Nut | 82 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-3MM-A2-Stainless-Steel-p/5040000.htm) |  |
+|  M2x10 | 2 | [Albany County Fasters](https://www.albanycountyfasteners.com/Socket-Head-Cap-Screw-2MM-A2-Stainless-Steel-p/5020000.htm) | 6 if using physical endstops |
+|  M5x55 (low profile) | 6 | [Open Builds](https://openbuildspartstore.com/low-profile-screws-m5-10-pack/) | Be sure to choose the 55mm option |
+|  Idler Pulley Kit | 8 | [Open Builds](https://openbuildspartstore.com/smooth-idler-pulley-kit/) | Technically only need the pulley body, 2x 625 bearings, lock nut, and washer from this kit. Could be purchased separately |
+|  GT2 Timing Belt | 10 | [ZYLTech](http://www.zyltech.com/fiber-glass-reinforced-2gt-gt2-timing-belt-custom-length-price-per-meter/) | Two ~3m lengths needed. But best to have extra - but a full continuous 10m |
+|  GT2 20T Pulley | 2 | [ZYLTech](http://www.zyltech.com/2gt-gt2-6mm-wide-20t-pulley-5mm-6-35mm-or-8mm-bore/) | MUST GET 5mm BORE VERSION!!! |
+|  LM10UU Bearing | 4 | [ZYLTech](http://www.zyltech.com/lm10luu-linear-bearing-10mm-long/) | This is the long (55mm) version! |
+|  10mm x 500mm Shaft | 6 | [ZYLTech](http://www.zyltech.com/10mm-chrome-plated-hardened-rod-shaft-pre-cut-lengths-300mm-1000mm/) | Be sure to select the 500mm option. |
+|  Micro Limit Switch | 2 | [ZYLTech](http://www.zyltech.com/micro-switch-with-1-meter-wire-2a-125vac/) | **Optional if using sensorless homing |
+|  MGN9 75mm Rail | 1 | [RobotDigg](https://www.robotdigg.com/product/671/HIWIN-Origin-Miniature-Guideway-Narrow-Linear-Rail) | Be sure to select the **MGN9-1C-75** option |
 |  9g Micro Servo | 1 | Various |  |
-|  Nema 17 Stepper | 2 | [OMC](https://www.omc-stepperonline.com/index.php?route=product/isearch&search=17HS13-1334S "OMC") | Anything Bipolar around 30oz-in and shorter than 45mm should work. With 22+ mm 5mm bore shaft |
-|  SKR Mini E3 v2.0 | 1 | [Various](https://www.amazon.com/gp/product/B0882QGFZR/ "Various") | v2.0 makes sensorless homing easier |
-|  SKR Mini LCD | 1 | [Various](https://www.amazon.com/gp/product/B07NZ9SD26/ "Various") | **Optional |
-|  12 or 24V @5A+ PSU | 1 | [Various](https://www.amazon.com/gp/product/B07PWZQ4MB/ "Various") |  |
+|  Nema 17 Stepper | 2 | [OMC](https://www.omc-stepperonline.com/index.php?route=product/isearch&search=17HS13-1334S) | Anything Bipolar around 30oz-in and shorter than 45mm should work. With 22+ mm 5mm bore shaft |
+|  SKR Mini E3 v2.0 | 1 | [Various](https://www.amazon.com/gp/product/B0882QGFZR/) | v2.0 makes sensorless homing easier |
+|  SKR Mini LCD | 1 | [Various](https://www.amazon.com/gp/product/B07NZ9SD26/) | **Optional |
+|  12 or 24V @5A+ PSU | 1 | [Various](https://www.amazon.com/gp/product/B07PWZQ4MB/) |  |
 |  SeroLaser | 1 | [Maniacal Labs](https://github.com/ManiacalLabs/ServoLaser) | Contact me if you want one |
 
 
